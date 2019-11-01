@@ -10,21 +10,21 @@ html{
 
 @media only screen and (max-width: 600px){
   body {
-    width: 48rem;
+    max-width: 48rem;
     margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 601px){
   body {
-    width: 60rem;
+    max-width: 60rem;
     margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 961px) {
   body {
-  width: 96rem;
+  min-width: 96rem;
   height: 70rem;
   margin: 0px auto;
   padding: 0px;
