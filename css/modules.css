@@ -1,0 +1,64 @@
+/* mobile style */
+@media screen and (max-width: 600px){
+  div {
+    text-align: center;
+  }
+  .a {
+    line-height: 7.5rem;
+  }
+  .b {
+    line-height: 15rem;
+  }
+  .c, .d {
+    line-height: 12.5rem;
+  }
+  .e, .f, .g, .h {
+    line-height: 25rem;
+  }
+  .i {
+    line-height: 8rem;
+  }
+}
+
+/* tablet style */
+@media screen and (min-width: 601px){
+  div {
+    text-align: center;
+  }
+  .a {
+    line-height: 8.5rem;
+  }
+  .b {
+    line-height: 17rem;
+  }
+  .c, .d {
+    line-height: 13.5rem;
+  }
+  .e, .f, .g, .h {
+    line-height: 27rem;
+  }
+  .i {
+    line-height: 9rem;
+  }
+}
+/* desktop style */
+@media screen and (min-width: 961px){
+  div {
+    text-align: center;
+  }
+  .a {
+    line-height: 10rem;
+  }
+  .b {
+    line-height: 60rem;
+  }
+  .c, .d {
+    line-height: 20rem;
+  }
+  .e, .f, .g, .h {
+    line-height: 25rem;
+  }
+  .i {
+    line-height: 15rem;
+  }
+}
